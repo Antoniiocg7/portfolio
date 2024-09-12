@@ -17,6 +17,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Antonio's portfolio",
   description: "Modern and minimalistic Antonio Cañizares Gamarra portfolio",
+  icons: {
+    icon: "/icon.ico",
+  }
 };
 
 export default function RootLayout({
