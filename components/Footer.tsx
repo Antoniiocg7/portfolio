@@ -8,12 +8,12 @@ const Footer = () => {
     <footer className='w-full pb-10 mb-[100px] md:mb-5' id="contact">
         <div className='flex flex-col items-center'>
             <h1 className='heading lg:max-w-[45vw]'>
-                Ready to take <span className='text-purple'>your</span> digital presence to the next level?
+                ¿Estás listo para llevar <span className='text-purple'>tu presencia digital</span> al siguiente nivel?
             </h1>
-            <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me today and let&apos;s discuss how I can help you achieve your goals.</p>
+            <p className='text-white-200 md:mt-10 my-5 text-center'>Comuníquese conmigo hoy y analicemos cómo puedo ayudarlo a alcanzar sus objetivos.</p>
             <a href="mailto:antoniocanizares8820@gmail.com">
                 <MagicButton 
-                    title="Let's get in touch"
+                    title="Pongámonos en contacto"
                     icon={<FaLocationArrow />}
                     position='right'
                 />
@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
 
         <div className='flex mt-16 md:flex-row flex-col justify-between items-center gap-4'>
-            <p className='md:text-base text-sm md:font-normal font-light'>Copyright © 2023 Antonio Cañizares Gamarra.</p>
+            <p className='md:text-base text-sm md:font-normal font-light'>Copyright © 2024 Antonio Cañizares Gamarra.</p>
 
             <div className='flex items-center md:gap-3 gap-6'>
                 {socialMedia.map((profile) => (

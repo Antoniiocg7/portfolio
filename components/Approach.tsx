@@ -8,13 +8,13 @@ const Approach  = () => {
   return (
     <section className="w-full py-20">
         <h1 className="heading">
-            My <span className="text-purple">approach</span>
+            Mi <span className="text-purple">enfoque</span>
         </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card 
-            title="Planning & Strategy" 
-            icon={<AceternityIcon order="Phase 1" />}
-            description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+            title="Planificación y estrategia" 
+            icon={<AceternityIcon order="Fase 1" />}
+            description="Colaboraremos para definir los objetivos de su sitio web, el público objetivo y las funcionalidades clave. Hablaremos sobre aspectos como la estructura del sitio, la navegación y los requisitos de contenido."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -22,9 +22,9 @@ const Approach  = () => {
           />
         </Card>
         <Card 
-            title="Development & Progress Update" 
-            icon={<AceternityIcon order="Phase 2" />}
-            description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+            title="Actualización de desarrollo y progreso" 
+            icon={<AceternityIcon order="Fase 2" />}
+            description="Una vez que estamos de acuerdo con el plan, pongo en marcha mi lista de reproducción lo-fi y me sumerjo en el código. Desde los bocetos iniciales hasta el código pulido, te mantengo informado en cada paso del proceso."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -37,9 +37,9 @@ const Approach  = () => {
           />
         </Card>
         <Card 
-            title="Development & Launch" 
-            icon={<AceternityIcon order="Phase 3" />}
-            description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+            title="Desarrollo y lanzamiento" 
+            icon={<AceternityIcon order="Fase 3" />}
+            description="¡Aquí es donde ocurre la magia! En función del diseño aprobado, traduciré todo a código funcional y crearé tu sitio web desde cero."
         >
           <CanvasRevealEffect
             animationSpeed={3}
